@@ -1,0 +1,24 @@
+.single-stat-section {
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 8rem 2rem; /* Generous vertical space for a big, hero-like feel */
+}
+
+.stat-headline {
+  /* Large, fluid headline: min 2rem, max 4rem, scaling in between */
+  font-size: clamp(1.8rem, 6vw, 3.5rem);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.stat-description {
+  /* Similarly fluid subtext: min 1rem, max 2rem */
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: #ccc;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.5;
+}

@@ -1,0 +1,25 @@
+.stats-box {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  width: 280px;
+}
+
+.stats-box h3 {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  margin-bottom: 10px;
+}
+
+.stats-box p {
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  color: #bbb;
+}
+
+/* On mobile, the box can stretch to full width if you prefer */
+@media (max-width: 480px) {
+  .stats-box {
+    width: 100%;
+  }
+}
